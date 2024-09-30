@@ -1,0 +1,63 @@
+<ion-content>
+  <div id="header">
+    <div id="app-bar">
+      <ion-icon name="arrow-back" color="black" [routerLink]="['/home']" routerLinkActive="router-link-active" ></ion-icon>
+      <div id="logo">
+        <img src="assets/buinzoo.png" alt=""/>
+      </div>
+    <div></div>
+  </div>
+
+    <h1>Regístrate</h1>
+    <p>Regístrate para descubrir todas las ventajas<br> del zoológico.</p> <br>
+  </div>
+
+<div class="wrapper">
+  <ion-card class="form-wrapper">
+    <ion-card-content>
+      <ion-item>
+        <ion-icon name="person"></ion-icon>
+        <ion-input type="text" placeholder="Nombre Completo"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="mail"></ion-icon>
+        <ion-input type="text" placeholder="Correo electrónico"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="lock-closed"></ion-icon>
+        <ion-input type="password" placeholder="Contraseña"></ion-input>
+      </ion-item>
+      <ion-button expand="block">
+        Registarse
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+
+  <div class="lines-text">
+    <span class="lines"></span>
+    <span class="text">O conéctate con una de tus cuentas</span>
+  </div>
+
+  <ion-card class="social-wrapper">
+    <ion-card-content>
+      <div class="socials">
+        <ion-button class="btn-fb">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </ion-button>
+        <ion-button class="btn-tw">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </ion-button>
+        <ion-button class="btn-go">
+          <ion-icon name="logo-google"></ion-icon>
+        </ion-button>
+        <ion-button class="btn-ph">
+          <ion-icon name="call"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+</div>
+
+</ion-content>
